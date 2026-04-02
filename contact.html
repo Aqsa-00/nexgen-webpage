@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexGen | Contact</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <header>
+        <section class="navbar">
+            <div class="container nav-container">
+                <a href="index.html" class="logo">Nex<span>Gen</span></a>
+                <nav class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <main>
+        <section class="page-header text-center animate-from-left">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p>Have a project in mind? Let's talk about it.</p>
+            </div>
+        </section>
+
+        <!--CONTACT SECTION  -->
+        <section class="contact-section section animate-from-left">
+            <div class="container">
+                <div class="contact-wrapper grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Fill out the form and our team will get back to you within 24 hours.</p>
+                        <div class="info-items">
+                            <div class="info-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <span>123 Tech Avenue, Suite 400<br>San Francisco, CA 94107</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <span>hello@nexgen.com<br>support@nexgen.com</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <span>+1 (555) 123-4567<br>+1 (555) 987-6543</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <form class="contact-form">
+                            <div class="form-group grid-2">
+                                <div class="input-field">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" placeholder="John Dow" required>
+                                </div>
+                                <div class="input-field">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-field">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" required
+                                        placeholder="Project Inquiry">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-field">
+                                    <label for="message">Your Message</label>
+                                    <textarea id="message" rows="5"
+                                        placeholder="Tell us about your project..."></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary submit-btn">Send message
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="container footer-container grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo">Nex<span>Gen</span></a>
+                <p class="footer-desc">Crafting digital experiences that empower businesses to thrive in a connected
+                    world. We focus on performance, design, and usability.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact">
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Tech Avenue, Suite 400, SF, CA</li>
+                    <li><i class="fa-solid fa-envelope"></i> hello@nexgen.com</li>
+                    <li><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</li>
+                </ul>
+            </div>
+            <div class="footer-bottom text-center">
+                <p>&copy; 2026 NexGen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
